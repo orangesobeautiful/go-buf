@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM docker.io/library/golang:1.20.2-alpine
+FROM docker.io/library/golang:1.20.2-alpine
 
 CMD ["/bin/sh"]
 
